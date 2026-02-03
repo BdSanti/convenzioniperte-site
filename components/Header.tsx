@@ -41,14 +41,6 @@ export default function Header() {
           {/* Bottoni - Destra (Desktop) */}
           <div className="hidden md:flex md:items-center md:space-x-4">
             <a
-              href="https://vipsaving.it"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-md border-2 border-blue-600 px-5 py-2 text-sm font-medium text-blue-600 hover:bg-blue-50 transition-colors duration-200"
-            >
-              Area Riservata
-            </a>
-            <a
               href="#contatti"
               className="rounded-md bg-blue-600 px-5 py-2 text-sm font-medium text-white hover:bg-blue-700 transition-colors duration-200"
             >
@@ -128,14 +120,6 @@ export default function Header() {
             </div>
             <div className="border-t border-gray-200 pb-3 pt-4">
               <div className="space-y-2 px-3">
-                <a
-                  href="https://vipsaving.it"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full rounded-md border-2 border-blue-600 px-5 py-2 text-sm font-medium text-blue-600 hover:bg-blue-50 transition-colors duration-200 text-center"
-                >
-                  Area Riservata
-                </a>
                 <a
                   href="#contatti"
                   onClick={() => setIsMenuOpen(false)}

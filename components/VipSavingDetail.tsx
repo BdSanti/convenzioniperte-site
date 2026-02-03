@@ -4,12 +4,17 @@ export default function VipSavingDetail() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Layout a Due Colonne */}
         <div className="grid gap-12 md:grid-cols-2 md:items-center lg:gap-16">
-          {/* Colonna Sinistra - Placeholder Immagine */}
+          {/* Colonna Sinistra - Video */}
           <div className="order-2 md:order-1">
-            <div className="flex aspect-[4/3] items-center justify-center rounded-2xl bg-gray-100 shadow-lg">
-              <p className="text-xl font-medium text-gray-400">
-                Mockup App/Web
-              </p>
+            <div className="aspect-[4/3] overflow-hidden rounded-2xl shadow-lg">
+              <iframe
+                src="https://player.vimeo.com/video/470471067?h=868d18bdf8"
+                className="h-full w-full"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                title="VipSaving Platform"
+              ></iframe>
             </div>
           </div>
 
