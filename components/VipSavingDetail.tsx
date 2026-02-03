@@ -6,7 +6,7 @@ export default function VipSavingDetail() {
         <div className="grid gap-12 md:grid-cols-2 md:items-center lg:gap-16">
           {/* Colonna Sinistra - Video */}
           <div className="order-2 md:order-1">
-            <div className="aspect-[4/3] overflow-hidden rounded-2xl shadow-lg">
+            <div className="aspect-4/3 overflow-hidden rounded-2xl shadow-lg">
               <iframe
                 src="https://player.vimeo.com/video/470471067?h=868d18bdf8"
                 className="h-full w-full"
@@ -28,7 +28,7 @@ export default function VipSavingDetail() {
             {/* Elenco Puntato con Icone */}
             <ul className="mb-8 space-y-4">
               <li className="flex items-start">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <svg
                     className="h-6 w-6 text-blue-600"
                     fill="none"
@@ -50,7 +50,7 @@ export default function VipSavingDetail() {
               </li>
 
               <li className="flex items-start">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <svg
                     className="h-6 w-6 text-blue-600"
                     fill="none"
@@ -72,7 +72,7 @@ export default function VipSavingDetail() {
               </li>
 
               <li className="flex items-start">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <svg
                     className="h-6 w-6 text-blue-600"
                     fill="none"
@@ -93,7 +93,7 @@ export default function VipSavingDetail() {
               </li>
 
               <li className="flex items-start">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <svg
                     className="h-6 w-6 text-blue-600"
                     fill="none"

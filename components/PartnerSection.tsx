@@ -1,6 +1,6 @@
 export default function PartnerSection() {
   return (
-    <section id="per-i-partner" className="bg-gradient-to-b from-white to-gray-50 py-16 md:py-24">
+    <section id="per-i-partner" className="bg-linear-to-b from-white to-gray-50 py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Titolo Principale */}
         <div className="mb-12 text-center">
@@ -92,8 +92,7 @@ export default function PartnerSection() {
               Strumenti Marketing
             </h3>
             <p className="text-gray-600">
-              Promuovi le tue offerte attraverso newsletter mirate, notifiche
-              push personalizzate e vetrine dedicate sul portale per massimizzare
+              Promuovi le tue offerte attraverso newsletter mirate e vetrine dedicate sul portale per massimizzare
               la visibilità del tuo brand.
             </p>
           </div>

@@ -17,7 +17,7 @@ export default function HeroSection() {
               <h2 className="mb-4 text-2xl font-bold text-blue-900 md:text-3xl">
                 Valorizza il tuo Team
               </h2>
-              <p className="mb-6 flex-grow text-base text-gray-700 md:text-lg">
+              <p className="mb-6 grow text-base text-gray-700 md:text-lg">
                 Il portale vantaggi VipSaving per aziende e associazioni che
                 vogliono offrire di più.
               </p>
@@ -51,7 +51,7 @@ export default function HeroSection() {
               <h2 className="mb-4 text-2xl font-bold text-gray-900 md:text-3xl">
                 Promuovi il tuo Brand
               </h2>
-              <p className="mb-6 flex-grow text-base text-gray-700 md:text-lg">
+              <p className="mb-6 grow text-base text-gray-700 md:text-lg">
                 Entra nel nostro network e raggiungi migliaia di utenti
                 profilati con offerte esclusive.
               </p>

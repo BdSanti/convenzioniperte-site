@@ -10,7 +10,7 @@ export default function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo/Brand - Sinistra */}
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <h1 className="text-xl font-bold text-blue-900">
               Convenzioni Per Te
             </h1>
