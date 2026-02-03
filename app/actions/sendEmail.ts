@@ -45,7 +45,7 @@ export async function sendContactEmail(formData: ContactFormData) {
 
     // Invia l'email tramite Resend
     const data = await resend.emails.send({
-      from: 'Convenzioni Per Te <onboarding@resend.dev>', // Sostituisci con il tuo dominio verificato
+      from: 'Convenzioni Per Te <info@convenzioniperte.it>', // Sostituisci con il tuo dominio verificato
       to: ['info@convenzioniperte.it'], // Sostituisci con l'email di destinazione reale
       subject: subject,
       html: emailHtml,
