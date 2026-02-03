@@ -16,11 +16,13 @@ export default function Footer() {
             </p>
             <div className="mt-6">
               <p className="text-sm mb-3">Distribution Partner</p>
-              <img 
-                src="/vipdistrict-logo.webp" 
-                alt="VipDistrict - Part of the epassi Group" 
-                className="h-12 w-auto"
-              />
+              <div className="bg-white p-3 rounded-lg inline-block">
+                <img 
+                  src="/vipdistrict-logo.webp" 
+                  alt="VipDistrict - Part of the epassi Group" 
+                  className="h-12 w-auto"
+                />
+              </div>
             </div>
           </div>
 
