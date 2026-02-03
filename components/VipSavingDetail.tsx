@@ -1,6 +1,6 @@
 export default function VipSavingDetail() {
   return (
-    <section className="bg-white py-16 md:py-24">
+    <section id="vipsaving" className="bg-white py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Layout a Due Colonne */}
         <div className="grid gap-12 md:grid-cols-2 md:items-center lg:gap-16">

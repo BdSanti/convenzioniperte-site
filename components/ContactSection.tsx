@@ -62,7 +62,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="bg-white py-16 md:py-24">
+    <section id="contatti" className="bg-white py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Titolo Sezione */}
         <div className="mb-12 text-center">

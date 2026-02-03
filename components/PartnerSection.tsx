@@ -1,6 +1,6 @@
 export default function PartnerSection() {
   return (
-    <section className="bg-gradient-to-b from-white to-gray-50 py-16 md:py-24">
+    <section id="per-i-partner" className="bg-gradient-to-b from-white to-gray-50 py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Titolo Principale */}
         <div className="mb-12 text-center">
@@ -101,7 +101,10 @@ export default function PartnerSection() {
 
         {/* CTA Opzionale */}
         <div className="mt-12 text-center">
-          <button className="inline-flex items-center rounded-md bg-blue-600 px-8 py-3 text-base font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+          <a
+            href="#contatti"
+            className="inline-flex items-center rounded-md bg-blue-600 px-8 py-3 text-base font-medium text-white shadow-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          >
             Richiedi Informazioni Partner
             <svg
               className="ml-2 h-5 w-5"
@@ -116,7 +119,7 @@ export default function PartnerSection() {
                 d="M13 7l5 5m0 0l-5 5m5-5H6"
               />
             </svg>
-          </button>
+          </a>
         </div>
       </div>
     </section>

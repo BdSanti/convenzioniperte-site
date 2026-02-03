@@ -1,6 +1,6 @@
 export default function OtherSolutions() {
   return (
-    <section className="bg-gray-50 py-16 md:py-24">
+    <section id="soluzioni-welfare" className="bg-gray-50 py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Titolo Sezione */}
         <div className="mb-12 text-center">
