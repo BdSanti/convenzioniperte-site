@@ -76,7 +76,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="mt-8 border-t border-gray-800 pt-8">
           <p className="text-center text-sm">
-            © {new Date().getFullYear()} Convenzioni Per Te. Tutti i diritti
+            © {new Date().getFullYear()} Convenzioni Per Te - Studio De Santi Srls - P.IVA: 15093021002. Tutti i diritti
             riservati.
           </p>
         </div>
