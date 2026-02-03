@@ -1,10 +1,13 @@
 export default function HeroSection() {
   return (
-    <section className="py-16 md:py-24">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section className="relative py-16 md:py-24 bg-cover bg-center" style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}>
+      {/* Overlay Scuro */}
+      <div className="absolute inset-0 bg-black/60"></div>
+      
+      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Titolo Principale Centrato */}
         <div className="mb-12 text-center">
-          <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+          <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
             Connettiamo persone e brand attraverso il valore
           </h1>
         </div>
